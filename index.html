@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACT1 - Dark and Light Mode</title>
+  <link rel="stylesheet" href="output.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+  <div id="toggleDark" class="">
+    <div class="relative flex flex-col justify-center min-h-screen py-6 overflow-hidden transition duration-150 ease-in bg-gray-50 dark:bg-gray-700 sm:py-12">
+      <!-- Color mode button -->
+      <div id="toggleDarkMode" class="text-3xl text-center text-gray-500 cursor-pointer hover:text-gray-200" id="toggleDarkMode">
+        <ion-icon id="moonIcon" name="moon" class=""></ion-icon>
+      </div>
+      <br>
+      <div class="relative px-6 pt-10 pb-8 bg-white shadow-xl dark:bg-gray-800 ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
+        <div class="max-w-md mx-auto">
+          <div class="flex items-center flex-shrink-0">
+            <img class="w-auto h-8" src="https://tailwindui.com/img/logos/mark.svg?color=cyan&shade=500" alt="Your Company">
+            <h1 class="flex items-center px-2 text-2xl font-medium transition duration-150 ease-in dark:text-white">
+              Dark | Light Mode V2</h1>
+          </div>
+          <div class="divide-y divide-gray-300/50">
+            <div class="py-8 space-y-6 text-base leading-7 text-gray-600 transition duration-150 ease-in dark:text-white">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error hic minus provident delectus:</p>
+              <ul class="space-y-4">
+                <li class="flex items-center">
+                  <svg class="flex-none w-6 h-6 stroke-2 fill-sky-100 stroke-sky-500" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="11" />
+                    <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+                  </svg>
+                  <p class="ml-4">
+                    Customizing your
+                    <code class="text-sm font-bold text-gray-900 transition duration-150 ease-in dark:text-gray-500">output.css</code>
+                    file
+                  </p>
+                </li>
+                <li class="flex items-center">
+                  <svg class="flex-none w-6 h-6 stroke-2 fill-sky-100 stroke-sky-500" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="11" />
+                    <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+                  </svg>
+                  <p class="ml-4">
+                    Extracting classes with
+                    <code class="text-sm font-bold text-gray-900 transition duration-150 ease-in dark:text-gray-500">@apply</code>
+                  </p>
+                </li>
+                <li class="flex items-center">
+                  <svg class="flex-none w-6 h-6 stroke-2 fill-sky-100 stroke-sky-500" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="11" />
+                    <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+                  </svg>
+                  <p class="ml-4">Code completion with instant preview</p>
+                </li>
+              </ul>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, repellat. Praesentium molestiae nihil dignissimos atque numquam!</p>
+            </div>
+            <div class="pt-8 text-base font-semibold leading-7">
+              <p class="text-gray-900 transition duration-150 ease-in dark:text-gray-500">Want to dig deeper into Software Engineering?</p>
+              <p>
+                <a href="javascript:void(0)" class="text-sky-500 hover:text-sky-600">Read the docs &rarr;</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
